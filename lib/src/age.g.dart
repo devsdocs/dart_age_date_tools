@@ -23,7 +23,7 @@ _$DateImpl _$$DateImplFromJson(Map<String, dynamic> json) => _$DateImpl(
 Map<String, dynamic> _$$DateImplToJson(_$DateImpl instance) =>
     <String, dynamic>{
       'year': instance.year,
-      'month': _$MonthsEnumMap[instance.month]!,
+      'month': _$MonthsEnumMap[instance.month],
       'date': instance.date,
     };
 

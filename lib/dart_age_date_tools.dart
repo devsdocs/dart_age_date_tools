@@ -1,8 +1,4 @@
-/// Support for doing something awesome.
-///
-/// More dartdocs go here.
-library;
+/// Dart package for managing date and age smoothly
+library dart_age_date_tools;
 
-export 'src/dart_age_date_tools_base.dart';
-
-// TODO: Export any libraries intended for clients of this package.
+export 'src/age.dart' show Age, Date, Months;
